@@ -1,0 +1,11 @@
+; ProtocolXDownload.def : Declares the module parameters for the DLL.
+
+LIBRARY      "libdbmysql"
+;DESCRIPTION  'libdbmysql Windows Static  Library'
+
+SECTIONS
+
+EXPORTS
+    ; Explicit exports can go here
+	getDbMain
+	delDbMain
